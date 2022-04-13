@@ -1,0 +1,43 @@
+{
+  "name": "crt-ui",
+  "version": "1.0.0",
+  "description": "A theme-ui component that gives the effect of a CRT monitor.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(t|j)sx?$": [
+        "@swc/jest"
+      ]
+    }
+  },
+  "keywords": [
+    "crt",
+    "theme-ui",
+    "component",
+    "react"
+  ],
+  "author": "Cary Wolff",
+  "license": "ISC",
+  "peerDependencies": {
+    "@emotion/react": "^11.9.0",
+    "@mdx-js/react": "^2.1.1",
+    "theme-ui": "^0.14.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@mdx-js/react": "^2.1.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "theme-ui": "^0.14.2"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.165",
+    "@swc/jest": "^0.2.20",
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1"
+  }
+}
